@@ -80,3 +80,46 @@ div {
     margin: 0 auto;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
+/* Project Section */
+.project {
+    background-color: #fff3e0; /* Match projects section theme */
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #ffb74d; /* Consistent with other project elements */
+    text-align: center; /* Center content */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit width for better focus */
+}
+
+/* Project Heading */
+.project h3 {
+    color: #ef6c00; /* Match heading style */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Project Image */
+.project img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px; /* Subtle rounding */
+    margin: 15px 0; /* Space around the image */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+/* Hover effect for images */
+.project img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Project Paragraph */
+.project p {
+    font-size: 1rem;
+    color: #333; /* Consistent text color */
+    margin-top: 10px;
+}
+
+
+
